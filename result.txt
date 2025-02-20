@@ -1,0 +1,70 @@
+1. (K-means Clustering Result)
+Analysis
+This image shows the K-means clustering result applied to a 2D dataset, where each color represents a different cluster.
+The gray dots represent cluster centroids.
+The data points are evenly distributed, forming four distinct clusters.
+Since K-means is a hard clustering method, each point belongs to a single cluster.
+
+2. (GMM Clustering Result)
+Analysis
+This image presents the Gaussian Mixture Model (GMM) clustering result for the same dataset.
+Each color represents a different category, but unlike K-means, GMM is a soft clustering method, meaning each point has a probability of belonging to multiple clusters.
+Since GMM allows cluster overlap, the cluster boundaries are not as well-defined as in K-means.
+
+3. (K-means Clustering on Sentinel-2 Remote Sensing Data)
+Analysis
+This image shows K-means clustering applied to Sentinel-2 satellite imagery.
+The color bar represents cluster labels.
+The data is divided into three main categories: purple, green, and yellow.
+K-means creates distinct boundaries between different land cover types, but it may oversimplify complex transitions.
+
+4. (GMM Clustering on Sentinel-2 Remote Sensing Data)
+Analysis
+This image presents the GMM clustering result for Sentinel-2 imagery.
+Compared to K-means, GMM produces more gradual transitions between clusters.
+Additional clusters may appear due to the probabilistic nature of GMM.
+
+5. Fifth Image (Mean and Standard Deviation of Ice and Lead Data)
+Analysis
+This plot shows the mean and standard deviation of two categories: ice (blue) and lead (orange).
+The shaded area represents the standard deviation, indicating variability in the dataset.
+This type of visualization is commonly used for analyzing remote sensing or geophysical data.
+
+6. (Histogram of Data Distribution)
+Analysis
+This histogram represents the distribution of multiple data categories.
+The Y-axis represents the number of data points, while the X-axis represents the data values.
+The peak concentration suggests that the data originates from a similar measurement range.
+7. (Duplicate Histogram)
+Analysis
+This histogram appears to be a duplicate of the previous image.
+If it does not provide additional insights, it may be redundant and can be removed.
+
+8. (Another Histogram of Data Distribution)
+Analysis
+This histogram shows a broader distribution than the previous ones.
+The data values are more dispersed, which may result from different datasets or measurement scales.
+
+9. (Scatter Plot: K-means Clustering on sig_0 vs. PP Variables)
+Analysis
+This scatter plot visualizes K-means clustering on sig_0 and PP variables.
+The yellow and purple colors represent different clusters.
+A clear grouping pattern is observed, suggesting a strong separation between the two categories.
+
+10. (Scatter Plot: GMM Clustering on sig_0 vs. SSD Variables)
+Analysis
+This image is similar to the previous scatter plot, but it uses GMM clustering instead of K-means.
+Since GMM is a soft clustering method, the boundaries are more diffuse.
+The distribution of points suggests that the data has overlapping characteristics.
+
+11.(Scatter Plot: GMM Clustering on SSD vs. PP Variables)
+Analysis
+This plot displays the relationship between SSD and PP variables, clustered using GMM.
+The yellow cluster mainly occupies lower SSD values, while the purple cluster is more scattered.
+Some outliers (purple points far from the main cluster) suggest possible noise in the dataset.
+
+12. (Plot of 10 Aligned Functions from Cluster 0 in GMM)
+Analysis
+This plot shows 10 equally spaced functions from Cluster 0 in the GMM model.
+The X-axis likely represents wavelength or time, and the Y-axis represents a measured environmental variable.
+A significant peak near 150 suggests that this category shares a common characteristic at that point.
